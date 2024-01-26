@@ -1,0 +1,78 @@
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-box {
+    width: 100%;
+    height: 100vh;
+}
+
+.color-content {
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 27%, rgba(111, 52, 126, 1) 68%, rgba(153, 10, 159, 1) 99%);
+}
+
+.align-center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-center .h1 {
+    font-size: 22px;
+}
+
+.align-center .h3 {
+    font-size: 10px;
+}
+
+.content-box {
+    background-color: rgba(0, 0, 0, 0.51);
+    text-align: center;
+    width: 20%;
+    min-width: 200px;
+    max-width: 500px;
+    padding: 50px;
+    height: 60%;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.51);
+    text-transform: capitalize;
+}
+
+.align-center input {
+    width: 100%;
+    max-width: 200px;
+    border-bottom: 2px solid rgb(104, 14, 96);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    border-image: none;
+    border-image-slice: 0%;
+    margin-bottom: 20px;
+}
+
+.align-center input:focus {
+    outline: none;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(90deg, rgb(156, 13, 212) 27%, rgb(107, 40, 124) 68%, rgba(153, 10, 159, 1) 99%);
+    border-image-slice: 1;
+}
+
+.input-submit {
+    background: linear-gradient(90deg, rgb(114, 26, 99) 17%, rgb(128, 30, 153) 48%, rgb(221, 29, 228) 99%) !important;
+    color: white !important;
+    width: 100%;
+    min-width: 200px;
+}
+
+.input-submit:hover {
+    background: linear-gradient(90deg, rgb(202, 48, 176) 17%, rgb(175, 40, 209) 48%, rgb(248, 55, 255) 99%) !important;
+}
