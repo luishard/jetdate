@@ -17,15 +17,15 @@
     <div class="flex-box container-box color-content">
         <div class="content-box">
             <div class="align-center">
-                <form action="" method="post">
+                <form action="login.php" method="post">
                     <div class="row">
                         <p class="h1">Logar no sistema</p>
                     </div>
                     <div class="row">
-                        <input type="text" placeholder="User">
+                        <input type="text" placeholder="User" id="user" name="user">
                     </div>
                     <div class="row">
-                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Password" id="password" name="password">
                     </div>
                     <div class="row">
                         <input class="input-submit" type="submit">
